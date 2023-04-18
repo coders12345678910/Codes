@@ -8,3 +8,4 @@ def minmax(data):
             big = val
 
     return small, big
+
