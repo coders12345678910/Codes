@@ -5,7 +5,7 @@ def num_vowels(text):
 
     for x in text:
         if x.lower() in vowels:
-            count +=1
+            count += 1
 
     print(f"The sum of vowels in", text, "is", count)
 

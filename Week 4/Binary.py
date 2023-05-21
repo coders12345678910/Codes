@@ -11,7 +11,7 @@ def binarySearch( theValues, target):
         if theValues[mid] == target:
             return mid
 
-        elif target < theValues[mid]:
+        elif target < theValues[mid]: # 2 < 4
             high = mid # cuz of the shifting
             if target < theValues[high]:
                 high -= 1
